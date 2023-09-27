@@ -1,4 +1,7 @@
 --source=.
 --verbose
 --exclude target/**
+--exclude xargs/**
 --rule min-words:10
+--rule min-estimate:30
+--rule max-estimate:60
